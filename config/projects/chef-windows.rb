@@ -27,6 +27,8 @@ build_version   Omnibus::BuildVersion.full
 build_iteration 4
 package_name    "chef-client"
 
+override :"chef-windows", version: "btm-contrib-merge"
+
 dependency "preparation"
 dependency "ruby-windows"
 dependency "libyaml-windows"
