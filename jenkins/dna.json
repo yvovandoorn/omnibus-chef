@@ -2,6 +2,7 @@
   "omnibus": {
     "build_user": "jenkins-node",
     "install_dir": "/opt/chef",
+    "source_dir": "/src/chef",
     "cache_dir": "/var/cache/omnibus"
   },
   "run_list": [

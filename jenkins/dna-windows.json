@@ -2,6 +2,7 @@
   "omnibus": {
     "build_user": "Administrator",
     "install_dir": "c:\\opscode\\chef",
+    "source_dir": "c:\\opscode\\src",
     "cache_dir": "c:\\omnibus-cache"
   },
   "run_list": [
