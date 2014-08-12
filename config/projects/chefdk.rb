@@ -21,7 +21,6 @@ maintainer "Chef Software, Inc."
 homepage   "http://www.getchef.com"
 
 install_dir    "/opt/chefdk"
-source_dir     "/src/chefdk"
 
 build_iteration 1
 build_version do
