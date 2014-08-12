@@ -32,7 +32,6 @@ build_version do
 end
 
 mac_pkg_identifier "com.getchef.pkg.chefdk"
-resources_path File.join(files_path, "chefdk")
 
 override :berkshelf, version: "master"
 override :bundler,   version: "1.5.2"
