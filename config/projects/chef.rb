@@ -31,8 +31,8 @@ end
 
 install_dir    "/opt/chef"
 
-resources_path File.join(files_path, "chef")
-mac_pkg_identifier "com.getchef.pkg.chef"
+#resources_path File.join(files_path, "chef")
+#mac_pkg_identifier "com.getchef.pkg.chef"
 
 override :bundler,  version: "1.7.0"
 override :ruby,     version: "2.1.2"
