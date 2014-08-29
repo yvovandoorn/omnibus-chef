@@ -39,7 +39,7 @@ package_name    "chef-client"
 override :rubygems, version: "1.8.29"
 
 # Override chef version for release
-override :"chef-windows", version: "11.14.6"
+override :"chef-windows", version: "btm/fix-hardcoded-binaries"
 
 dependency "preparation"
 dependency "chef-windows"
